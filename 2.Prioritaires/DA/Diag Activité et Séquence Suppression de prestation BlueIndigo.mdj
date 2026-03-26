@@ -4567,7 +4567,7 @@
 												"$ref": "AAAAAAGdKXLJwEHwsmk="
 											},
 											"font": "Arial;13;0",
-											"left": 224.72998046875,
+											"left": 400.72998046875,
 											"top": 53,
 											"width": 115.9052734375,
 											"height": 13,
@@ -4580,7 +4580,7 @@
 												"$ref": "AAAAAAGdKXLJwEHwsmk="
 											},
 											"font": "Arial;13;1",
-											"left": 205,
+											"left": 381,
 											"top": 53,
 											"width": 14.72998046875,
 											"height": 13,
@@ -4588,9 +4588,9 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 200,
+									"left": 376,
 									"top": 48,
-									"width": 1393,
+									"width": 1017,
 									"height": 1049,
 									"nameLabel": {
 										"$ref": "AAAAAAGdKXLJwEHxQfo="
@@ -6387,6 +6387,45 @@
 									"activation": {
 										"$ref": "AAAAAAGdKYopBUOiuGc="
 									}
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGdKZZKlt0E8x0=",
+									"_parent": {
+										"$ref": "AAAAAAGdKXLJwEHva+Y="
+									},
+									"font": "Arial;13;0",
+									"left": 1592,
+									"top": 104,
+									"width": 225,
+									"height": 129,
+									"text": "Etape 5 : Scénario d'erreur\nCommunication impossible avec la BDD\n5.1 Afficher un message d'erreur\n5.2 Arrêter le scénario\nDans le cas Nominal, la communication avec la BDD est correcte"
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGdKZtCgN0TAxA=",
+									"_parent": {
+										"$ref": "AAAAAAGdKXLJwEHva+Y="
+									},
+									"font": "Arial;13;0",
+									"left": 1592,
+									"top": 232,
+									"width": 225,
+									"height": 129,
+									"text": "Etape 7 : Scénario d'erreur\nL'utilisateur annule la suppression de la prestation\n8.1 Afficher un message d'erreur\n8.2 Arrêter le scénario\nDans le cas Nominal, l'utilisateur accepte la suppression de la prestation"
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGdKZ2iXd0bT28=",
+									"_parent": {
+										"$ref": "AAAAAAGdKXLJwEHva+Y="
+									},
+									"font": "Arial;13;0",
+									"left": 1592,
+									"top": 360,
+									"width": 225,
+									"height": 129,
+									"text": "Etape 12 : Scénario d'erreur\nLa BDD n'a pas pu supprimer le compte\n8.1 Afficher un message d'erreur\n8.2 Arrêter le scénario\nDans le cas Nominal, la BDD à réussi la suppression de la prestation"
 								}
 							]
 						}
@@ -6626,7 +6665,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGdKXLJv0HtSj4="
 					},
-					"name": "Role1"
+					"name": "Role1",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -6634,7 +6674,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGdKXLJv0HtSj4="
 					},
-					"name": "Role2"
+					"name": "Role2",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -6642,7 +6683,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGdKXLJv0HtSj4="
 					},
-					"name": "Role3"
+					"name": "Role3",
+					"type": ""
 				}
 			]
 		}
